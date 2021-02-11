@@ -1,0 +1,108 @@
+
+header {
+    text-align: left;
+    padding-top: 1.5em;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+  
+  nav {padding: 5vw 0vw 1vw 0vw}
+  
+  nav a {
+    text-decoration: none;
+    padding: 1vw 3vw;
+    margin: 2vw;
+    text-align: center;
+    display: inline-block;
+    font-Size: 1em;
+    border: 1px lightgrey solid;
+    border-radius: 0.4em;;
+  }
+  
+  ul {padding: 0vw;}
+  
+  a {text-decoration: none;}
+  
+  h1 {
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    letter-spacing:0.05em;
+    text-align: left;
+    font-size: 8vw;
+    color: black;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    margin: 0;
+    padding: 2.5vw;
+  }
+  
+  nav,
+  section, article,
+  h2 {font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 1em;
+  }
+  
+  
+  body { padding: 0vw 8vw 0vw 8vw;
+    Background-color:white
+    ;
+  
+    margin: 0;
+    display: grid;
+  }
+    
+  
+    article {padding: 2vw;}
+  
+  h2 {
+    font-size: 0.2em;
+  }
+  
+  article {
+    font-weight: 300;
+    text-align: left;
+    font-size: 1em;
+    color: black;
+    margin: 0;
+   }
+  
+  img {
+    width: 100%;
+  }
+  img:hover {
+      transition: all .2s ease;
+    opacity: 60%}
+  
+  footer {
+    padding: 2em;
+    font-weight: 200;
+    text-align: right;
+    color: black;
+    font-Size: 0.8em;
+  }
+  
+    @media only screen and (max-width: 1000px)  {
+  
+   section {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 3vw;
+    }
+  
+  }
+  
+  @media only screen and (min-width: 1700px) {
+        nav a {font-size: 2em;
+    text-decoration: none;}
+    h2 {font-size: 2em;}
+     h3 {font-size: 1.5em;}
+  }
+  
+  
+  
